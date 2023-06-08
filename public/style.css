@@ -17,16 +17,20 @@ html {
 }
 
 #palabra {
-  font-family: "Rocher";
-  font-palette: --Mint;
+  font-family: "Roboto";
+  /* font-palette: --Mint; */
+  color: black;
+  font-weight: bold;
   text-align: center;
-  font-size: 40px;
+  font-size: 320%;
 }
 #definicion {
   text-align: center;
+  width: 100vw;
 }
 #uso {
   text-align: center;
+  width: 100vw;
 }
 
 h1 {
