@@ -8,7 +8,7 @@ const data = [
     uso: "El inexorable paso del tiempo.",
   },
   {
-    palabra: "AUTOPIESIS",
+    palabra: "AUTOPIESISNOMBREMUYLARGO",
     definicion: "Concepto asociado a que todo ser vivo se encuentra dentro de un sistema cerrado que constantemente está creciendo y creándose a si mismo. Es propuesto por el científico chileno Humberto Maturana.",
     numero: "2",
     uso: "Un bonito recuerdo es inmarcesible.",
@@ -35,7 +35,7 @@ function getDiaOfYear() {
 const dayOfYear = getDiaOfYear();
 
 // Ponemos en constantes la palabra y su definicion
-const restaDia = dayOfYear - 171;
+const restaDia = dayOfYear - 170;
 const palabraData = data[restaDia].palabra;
 const definicionData = data[restaDia].definicion;
 const usoData = data[restaDia].uso;
