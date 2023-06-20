@@ -35,7 +35,7 @@ function getDiaOfYear() {
 const dayOfYear = getDiaOfYear();
 
 // Ponemos en constantes la palabra y su definicion
-const restaDia = dayOfYear - 157;
+const restaDia = dayOfYear - 171;
 const palabraData = data[restaDia].palabra;
 const definicionData = data[restaDia].definicion;
 const usoData = data[restaDia].uso;
